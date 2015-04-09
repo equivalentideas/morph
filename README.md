@@ -74,7 +74,7 @@ Now you can start the server
 and point your browser at [http://127.0.0.1:3000](http://127.0.0.1:3000)
 
 To get started, log in with Github. There is a simple admin interface
-accessible at [http://127.0.0.1:3000/admin](http://127.0.0.1:3000/admin). To
+accessible at [http://127.0.0.1:3000](http://127.0.0.1:3000). To
 access this, run the following to give your account admin rights:
 
     bundle exec rake app:promote_to_admin
@@ -83,7 +83,7 @@ access this, run the following to give your account admin rights:
 
 If you're doing your development on Linux you're in luck because installing Docker is pretty straightforward. Just follow the instructions on the [Docker site](http://www.docker.io/gettingstarted/#h_installation).
 
-If you're on OSX you could follow the instructions on the [Docker site](http://www.docker.io/gettingstarted/#h_installation) as well. However there will be some extra configuration you will need to do to make it work with Morph.
+If you're on OSX you could follow the [instructions on the Docker site](https://docs.docker.com/installation/mac/). Docker encourage OSX users to install their [Kitematic](https://kitematic.com/) application, a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface) for running Docker, that works with Morph. However there will be some extra configuration you will need to do to make it work with Morph.
 
 We've made it easier by providing a Vagrantfile that sets up a VM, installs docker on it and makes sure that your development box can talk to docker on the VM.
 
